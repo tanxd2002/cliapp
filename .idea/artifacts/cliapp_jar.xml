@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact name="cliapp:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/cliapp_jar</output-path>
+    <root id="root">
+      <element id="archive" name="cliapp.jar">
+        <element id="module-output" name="cliapp" />
+      </element>
+    </root>
+  </artifact>
+</component>
