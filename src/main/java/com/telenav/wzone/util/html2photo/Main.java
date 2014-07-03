@@ -17,7 +17,6 @@ import java.nio.charset.CharsetDecoder;
 public class Main {
 
     public static void main(String[] args) throws IOException {
-        System.out.println("111");
         InputStream inputStream = Main.class.getResourceAsStream("/com/telenav/wzone/util/html2photo/tmpl.html");
         ReadableByteChannel channel = Channels.newChannel(inputStream);
         ByteBuffer byteBuffer = ByteBuffer.allocate(1024);
