@@ -13,12 +13,8 @@
 		<javaClientGenerator targetPackage="com.telenav.wzone.database.mapper" targetProject="src/main/java" type="XMLMAPPER">
 			<property name="enableSubPackages" value="true" />
 		</javaClientGenerator>
-        <table schema="ttx" tableName="ttx_carpool_offer" domainObjectName="CarpoolOffer">
-			<generatedKey column="id" sqlStatement="MySql" identity="true" />
-		</table>
-        <table schema="ttx" tableName="ttx_carpool_offer_location" domainObjectName="CarpoolOfferLocation">
+        <table schema="ttx" tableName="ttx_driver_profile" domainObjectName="DriverProfile">
             <generatedKey column="id" sqlStatement="MySql" identity="true" />
-            <ignoreColumn column="location"></ignoreColumn>
         </table>
 	</context>
 </generatorConfiguration>
